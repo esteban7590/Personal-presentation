@@ -7,6 +7,28 @@
     <title>Esteban's presentation</title>
   </head>
   <body>
+    <section>
+      <img src="" alt="" />
+      <h3>INFO</h3>
+      <h4>Name</h4>
+      <p>Esteban Rojas Londoño</p>
+      <h4>Address</h4>
+      <p>Carrera 46A # 42Sur 75<br />Envigado, Antioquia</p>
+      <h4>Phone Number</h4>
+      <p>3012513127</p>
+      <h4>Email</h4>
+      <p>esteban7590@hotmail.com</p>
+      <h3>LANGUAGES</h3>
+      <h4>Spanish</h4>
+      <p>Native</p>
+      <h4>English</h4>
+      <p>IELTS: 7.5</p>
+      <h3>SOCIAL NETWORKS</h3>
+      <h4>Instagram</h4>
+      <h4><a href="">estebanrojasln</a></h4>
+      <h4>Facebook</h4>
+      <h4><a href="">esteban7590</a></h4>
+    </section>
     <header>
       <h1>ESTEBAN ROJAS</h1>
       <h2>PRODUCT DESIGN ENGINEER + ENTREPRENEUR</h2>
@@ -74,95 +96,39 @@
       <li>Programming</li>
       <li>Office skills</li>
     </ul>
-    <h3>CONTACT</h3>
-
+    <h3>CONTACT ME</h3>
     <form>
-      <h1>Inscribete a Acamica</h1>
-      <div>
-        <label>Nombre:</label>
-        <input type="text" name="Nombre" id="nombre" required />
-      </div>
-      <br />
-      <div>
-        <label>Apellido:</label>
-        <input
-          type="text"
-          name="Apellido"
-          placeholder="Ingresar apellido"
-          required
-        />
-      </div>
-      <br />
-      <div>
-        <label>Email:</label>
-        <input type="email" id="mail" required />
-      </div>
-      <br />
-      <div>
-        <label>Pais:</label>
-        <select name="Pais" id="Pais" required>
-          <option value="" disabled selected> Selecciona una opcion</option>
-          <option value="1">Colombia</option>
-          <option value="2">Peru</option>
-          <option value="3">Ecuador</option>
-        </select>
-      </div>
-      <br />
-      <div>
-        <label>¿A qué carrera deseas inscribirte?</label>
-        <br />
-        <input type="radio" name="Carrera" value="1" required />Data Science
-        <input type="radio" name="Carrera" value="2" required />UI/UX
-        <input type="radio" name="Carrera" value="3" required />Desarrollo Web
-        Full Stack<br />
-      </div>
-      <br />
-      <div>
-        <label>Modalidad:</label>
-        <br />
-        <input
-          type="radio"
-          name="Modalidad"
-          value="1"
-          required
-        />Presencial<br />
-        <input type="radio" name="Modalidad" value="2" required />Online<br />
-      </div>
-      <br />
-      <div>
-        <label>¿Estás trabajando actualmente?</label>
-        <br />
-        <select name="Pais" id="Pais">
-          <option value="" disabled selected> Selecciona una opcion</option>
-          <option value="1">Si</option>
-          <option value="2">No</option>
-        </select>
-      </div>
-      <br />
-      <div>
-        <label>Teléfono de contacto:</label>
-        <input type="text" name="Apellido" />
-      </div>
-      <br />
-      <div>
-        <label>Descripción personal:</label>
-        <textarea
-          placeholder="No más de 300 caracteres"
-          maxlength="300"
-        ></textarea>
-      </div>
-      <br />
-      <!-- <div>
-          <label for="Genero">Selecciona genero favorito</label>
-          <br>
-          <input type="checkbox" name="Ficcion" value="Ficcion">Ficcion<br>
-          <input type="checkbox" name="Drama" value="Drama">Drama<br>
-          <input type="checkbox" name="Comedia" value="Comedia">Comedia<br>
-          <input type="checkbox" name="Otro" value="Otro">Otro<br>
-          <input type="text" name="Cual" placeholder="Cual">
-      </div> -->
-      <input type="submit" value="Enviar" />
-      <input type="reset" value="Reset" />
+      <ul>
+        <li>
+          <label>Name:</label>
+          <input
+            type="text"
+            name="Apellido"
+            placeholder="Type your name"
+            required
+          />
+        </li>
+        <li>
+          <label>Email:</label>
+          <input type="email" id="mail" required />
+        </li>
+        <li>
+          <label>Message:</label>
+          <textarea
+            placeholder="Max. 500 characters"
+            maxlength="500"
+            required
+          ></textarea>
+        </li>
+        <li>
+          <label>¿How did you land on my site? (Optional)</label>
+          <input type="radio" name="Origen" value="1" />Referenced by a friend
+          <input type="radio" name="Origen" value="2" />Found it with an
+          application <input type="radio" name="Origen" value="3" />None
+        </li>
+
+        <input type="submit" value="Send message" />
+      </ul>
     </form>
   </body>
 </html>
