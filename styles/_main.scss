@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-family: $h1-font;
+  font-size: $h1-font-size;
+  padding-top: 10px;
+}
+h2 {
+  font-family: $h2-font;
+  font-size: $h2-font-size;
+  letter-spacing: 5px;
+}
+h3 {
+  font-family: $h3-font;
+  font-size: $h3-font-size;
+}
+.main_block {
+  position: relative;
+  margin-left: 30%;
+  div {
+    padding-top: 300px;
+  }
+}
+
+header {
+  position: fixed;
+
+  background-color: $color-primary;
+}
+
+.barra_nav {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  li {
+    list-style: none;
+    display: inline;
+    padding-left: 9%;
+    font-family: $h3-font;
+  }
+}
