@@ -1,48 +1,131 @@
-.info_block {
-  position: fixed;
-  background-color: #313131;
-  padding: 30px;
-  color: #d4d4d4; }
+@media only screen and (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0; }
 
-.perfil {
-  border-radius: 50%;
-  border: 10px solid #ffffff; }
+  h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 100px;
+    padding-top: 10px; }
 
-* {
-  padding: 0;
-  margin: 0; }
+  h2 {
+    font-family: "Myriad-pro", sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px; }
 
-h1 {
-  font-family: "Bebas Neue", cursive;
-  font-size: 100px;
-  padding-top: 10px; }
+  h3, h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    padding-top: 0%; }
 
-h2 {
-  font-family: "Myriad-pro", sans-serif;
-  font-size: 18px;
-  letter-spacing: 5px; }
+  h4 {
+    font-size: 15px;
+    padding-bottom: 1%;
+    padding-right: 5%; }
 
-h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px; }
+  h5 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 13px;
+    padding-left: 5%;
+    padding-bottom: 5%; }
 
-.main_block {
-  position: relative;
-  margin-left: 30%; }
-  .main_block div {
-    padding-top: 300px; }
+  p, .skills, form, .redes {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%; }
 
-header {
-  position: fixed;
-  background-color: #313131; }
+  .perfil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    size: 100%;
+    padding: 10%; }
 
-.barra_nav {
-  padding-top: 50px;
-  padding-bottom: 10px; }
-  .barra_nav li {
+  header {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background-color: #ffffff; }
+    header h1 {
+      font-size: 70px; }
+    header h2 {
+      font-size: 15px; }
+    header a {
+      text-decoration: none; }
+    header a:visited {
+      color: unset; }
+
+  .barra_nav {
+    padding-top: 20px;
+    padding-bottom: 10px; }
+    .barra_nav li {
+      list-style: none;
+      display: inline;
+      padding-left: 2%;
+      font-family: "Roboto", sans-serif;
+      font-size: 13px;
+      line-height: 1.5; }
+
+  .intro {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%; }
+
+  .skills {
     list-style: none;
+    padding-left: 5%;
+    padding-top: 0%; }
+
+  .edu {
+    padding-bottom: 5%; }
+
+  .row {
+    display: flex; }
+
+  .column {
+    flex: 50%;
+    text-align: left; }
+
+  form {
+    margin: 5%;
+    margin-bottom: 10%;
+    width: 80%;
+    padding: 5%;
+    border: 1px solid #ccc;
+    border-radius: 10px; }
+    form ul li {
+      list-style: none;
+      margin-top: 3%; }
+
+  .contact {
+    padding-bottom: 0%; }
+
+  .info p, .info .skills, .info form, .info .redes {
+    padding-bottom: 5%; }
+  .info h5 {
+    font-style: normal; }
+
+  .anchor {
+    display: block;
+    height: 181px;
+    margin-top: -181px;
+    visibility: hidden; }
+
+  .fa {
     display: inline;
-    padding-left: 9%;
-    font-family: "Roboto", sans-serif; }
+    padding-left: 5%; }
+
+  .redes {
+    padding: 5%;
+    font-style: normal; } }
 
 /*# sourceMappingURL=styles.css.map */
